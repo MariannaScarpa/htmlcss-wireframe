@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 25px;
+}
+
+main {
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+}
+
+.rettangoli {
+    border: solid 2px black;
+    box-sizing: border-box;
+    margin: 20px auto;
+    padding: 20px;
+    width: 500px;
+    height: 150px;
+}
+
+footer {
+    padding: 25px;
+}
