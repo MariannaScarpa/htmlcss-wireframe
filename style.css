@@ -3,24 +3,37 @@
     padding: 0;
 }
 
-header {
-    padding: 25px;
+body {
+    font-family: sans-serif;
+    background-color: rgb(245, 241, 241);
 }
 
-main {
-    border-top: solid 2px black;
-    border-bottom: solid 2px black;
+header {
+    padding: 25px;
+    background-color: rgb(13, 72, 109);
+    border-radius: 0px 0px 10px 10px;
+}
+
+h1 {
+    color: rgba(255, 255, 255, 0.893);
+    text-align: center;
 }
 
 .rettangoli {
-    border: solid 2px black;
+    border: solid 2px rgba(255, 255, 255, 0.738);
     box-sizing: border-box;
+    border-radius: 10px;
     margin: 20px auto;
     padding: 20px;
     width: 500px;
     height: 150px;
+    background-color: white;
 }
 
 footer {
     padding: 25px;
+    background-color: rgb(13, 72, 109);
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+    color: white
 }
