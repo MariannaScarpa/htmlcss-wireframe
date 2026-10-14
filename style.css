@@ -26,8 +26,21 @@ h1 {
     margin: 20px auto;
     padding: 20px;
     width: 500px;
-    height: 150px;
+    height: 175px;
     background-color: white;
+}
+
+.nomi {
+    display: inline;
+}
+
+.quadrati {
+    display: inline;
+    padding-right: 20px;
+}
+
+img {
+    width: 50px;
 }
 
 footer {
@@ -35,5 +48,5 @@ footer {
     background-color: rgb(13, 72, 109);
     border-radius: 10px 10px 0px 0px;
     text-align: center;
-    color: white
+    color: white;
 }
